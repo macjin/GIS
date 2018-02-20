@@ -1,0 +1,461 @@
+
+
+/*-------------------------------------*/
+/*          Boxshadow start            */
+/*-------------------------------------*/
+
+.boxShadow{
+ box-shadow: 2px 2px 5px #888888;
+}
+
+/*-------------------------------------*/
+/*          Boxshadow End              */
+/*-------------------------------------*/
+
+
+
+/*-------------------------------------*/
+/*          Footer Buttons End         */
+/*-------------------------------------*/
+
+.theFooter{
+ background: #4d4d4d;
+   box-shadow: 2px 2px 5px #888888;
+}
+.footer {
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ height: cover;
+ line-height: 30px; /* Vertically center the text there */
+ background: #4d4d4d;
+}
+
+
+.white-text {
+ font-size: 1.55rem;
+ line-height: 0;
+}
+
+
+footer.page-footer a {
+ font-size: 1.3rem;
+ line-height: 14px;
+ color: white;
+ text-align: left;
+ text-decoration: none;
+}
+footer.page-footer a:hover {
+ color: #FF6F20;
+}
+.socialMedia:hover {
+ background: #FF6F20;
+ color: white;
+}
+
+.socialMedia a:hover {
+ color: white;
+}
+
+footer.page-footer .column-title {
+ text-transform: uppercase;
+ margin-top: 15px;
+ color: white;
+ font-size: 1.5rem;
+}
+
+footer.page-footer .footer-copyright {
+   overflow: hidden;
+   height: 30px;
+   line-height: 10px;
+   color: white;
+}
+
+.thin-100, .thin-100-italic {
+
+ font-size: 1rem;
+}
+.col-md-2  {
+
+}
+ul, ul li {
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+}
+
+
+.gplus-bg{
+   background-color: #e15f4f;
+}
+.tw-bg {
+   background-color: #55ACEE;
+}
+.fb-bg {
+   background-color: #3B5998;
+}
+.rectangle, .square {
+   color: #fff;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   -ms-border-radius: 2px;
+   -o-border-radius: 2px;
+}
+.rectangle {
+   padding: 10px 32px;
+   border-radius: 2px;
+}
+.btn-sm-full {
+   margin: 10px;
+   transition: .2s ease-out;
+}
+.btn-sm, .btn-sm-full {
+   cursor: pointer;
+   position: relative;
+   outline: 0!important;
+   display: inline-block;
+   padding: 8px;
+   -webkit-transition: .2s ease-out;
+   -moz-transition: .2s ease-out;
+   -o-transition: .2s ease-out;
+   -ms-transition: .2s ease-out;
+}
+.btn-sm-full, .btn-sm-full:focus, .btn-sm-full:hover, .btn-sm:focus, .btn-sm:hover {
+   color: #fff;
+}
+.waves-effect {
+   position: relative;
+   cursor: pointer;
+   display: inline-block;
+   overflow: hidden;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   z-index: 1;
+   will-change: opacity,transform;
+   -webkit-transition: all .3s ease-out;
+   -moz-transition: all .3s ease-out;
+   -o-transition: all .3s ease-out;
+   -ms-transition: all .3s ease-out;
+   transition: all .3s ease-out;
+}
+.btn, .btn-floating, .btn-sm, .btn-sm-full, .card, .card-panel, .dropdown-content, .dropdown-menu, .panel-group, .side-nav, .z-depth-1 {
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+}
+.btn-floating, .picker__box, .switch label .lever, .waves-effect {
+   vertical-align: middle;
+}
+.waves-effect, a {
+   -webkit-tap-highlight-color: transparent;
+}
+
+
+.text-center {
+   text-align: center;
+}
+Inherited from footer.page-footer.elegant-color.center-on-small-only
+.navbar, footer.page-footer, h1, h2, h3, h4, h5, p, span.badge-md.new {
+   font-weight: 300;
+}
+
+
+
+
+/*-------------------------------------*/
+/*         Footer End          */
+/*-------------------------------------*/
+
+/*-------------------------------------*/
+/*         Image Slider Start          */
+/*-------------------------------------*/
+.rslides {
+ position: relative;
+ list-style: none;
+ overflow: hidden;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ box-shadow: 2px 2px 5px #888888;
+}
+
+.rslides li {
+ -webkit-backface-visibility: hidden;
+ position: absolute;
+ display: none;
+ width: 100%;
+ left: 0;
+ top: 0;
+ }
+
+.rslides li:first-child {
+ position: relative;
+ display: block;
+ float: left;
+ }
+
+.rslides img {
+ display: block;
+ height: auto;
+ float: left;
+ width: 100%;
+ border: 0;
+ }
+
+/*-------------------------------------*/
+/*         Image Slider End            */
+/*-------------------------------------*/
+
+/*-------------------------------------*/
+/*    Logo and Text Header Start       */
+/*-------------------------------------*/
+.top-logo{
+ margin-left:5vh;
+ height: 70%;
+ width: 70%;
+}
+.title-text{
+ color: #4D4D4D;
+ font-size: 3.5rem;
+ line-height: 1vh;
+}
+
+.under-text{
+ color: #4D4D4D;
+ font-size: 2.5rem;
+ margin-bottom: 5vh;
+}
+
+.headquater-layer{
+ background: #FF6F20;
+ color: white;
+}
+.headquater-image{
+ height: 30%;
+ width: 30%;
+ padding: .5%;
+ border-radius: 100px;
+}
+
+
+/*-------------------------------------*/
+/*           Video Start               */
+/*-------------------------------------*/
+#video_player {
+ display: table;
+ line-height: 0;
+ font-size: 0;
+ background: #000;
+ max-width: 1000px;
+ margin: 0 auto;
+ width: 100%;
+ box-shadow: 2px 2px 5px #888888;
+}
+#video_container {
+ position: relative;
+}
+#video_player div,
+#video_player figcaption {
+ display: table-cell;
+ vertical-align: top;
+}
+#video_container video {
+ position: absolute;
+ display: block;
+ width: 100%;
+ height: 100%;
+ top: 0;
+}
+#video_player figcaption {
+ width: 25%;
+ box-shadow: 2px 2px 5px #888888;
+}
+#video_player figcaption a {
+ display: block;
+}
+#video_player figcaption a {
+ opacity: .5;
+ transition: 1s opacity;
+}
+#video_player figcaption a img,
+figure video {
+ width: 100%;
+ height: 25vh;
+}
+#video_player figcaption a.currentvid,
+#video_player figcaption a:hover,
+#video_player figcaption a:focus {
+ opacity: 1;
+}
+@media (max-width: 700px) {
+ #video_player video,
+ #video_player figcaption {
+   display: table-row;
+ }
+ #video_container {
+   padding-top: 56.25%;
+ }
+ #video_player figcaption a {
+   display: inline-block;
+   width: 33.33%;
+ }
+}
+
+
+
+/*-------------------------------------*/
+/*          Video Block & Layer        */
+/*-------------------------------------*/
+
+
+.video-main iframe{
+ width: 100%;
+ height: 50vh;
+}
+
+.video-main{
+ display: inline-block;
+ float:left;
+ width: 60%;
+ height: 35vh;
+ padding: .1vh;
+}
+
+.video-side iframe{
+ width: 100%;
+ height: 25vh;
+}
+
+.video-side{
+ display: inline-block;
+ float:right;
+ width: 40%;
+ height: 25vh;
+ padding: .1vh;
+}
+
+
+/*-------------------------------------*/
+/*          Video End                 */
+/*-------------------------------------*/
+.p-margin{
+ margin-left: 1vh;
+}
+
+
+/*-------------------------------------*/
+/*          Mobile Start               */
+/*-------------------------------------*/
+
+@media only screen and (device-aspect-ratio: 9/16 ) and (orientation: portrait) {
+ .top-logo{
+   margin-left:2vh;
+   height: 80%;
+   width: 80%;
+ }
+
+ .title-text{
+   color: #4D4D4D;
+   line-height: 1vh;
+   margin-left: 0vh;
+   width: 100%;
+   padding-top: 1%;
+ }
+
+ .under-text{
+   color: #4D4D4D;
+   margin-bottom: 5vh;
+   margin-left: 0vh;
+   width: 100%;
+   padding-top: 1%;
+ }
+
+
+}
+
+/*-------------------------------------*/
+/*          Mobile End                 */
+/*-------------------------------------*/
+
+
+/*-------------------------------------*/
+/*          Map Start                 */
+/*-------------------------------------*/
+
+#map-canvas{
+ margin-left:-15px;
+ margin-right:-15px;
+ bottom:0;
+ height:65vh;
+}
+#map{
+  width:100%;
+}
+#map{
+ height:600px;
+}
+/*-------------------------------------*/
+/*          Map End                 */
+/*-------------------------------------*/
+
+/*-------------------------------------*/
+/*          Blinking Image             */
+/*-------------------------------------*/
+/* Firefox old*/
+@-moz-keyframes blink {
+   0% {
+       opacity:1;
+   }
+   50% {
+       opacity:0;
+   }
+   100% {
+       opacity:1;
+   }
+}
+
+@-webkit-keyframes blink {
+   0% {
+       opacity:1;
+   }
+   50% {
+       opacity:0;
+   }
+   100% {
+       opacity:1;
+   }
+}
+/* IE */
+@-ms-keyframes blink {
+   0% {
+       opacity:1;
+   }
+   50% {
+       opacity:0;
+   }
+   100% {
+       opacity:1;
+   }
+}
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+   0% {
+       opacity:1;
+   }
+   50% {
+       opacity:0;
+   }
+   100% {
+       opacity:1;
+   }
+}
+.blinkingImage{
+   -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+   -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+   -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+   animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
+/*-------------------------------------*/
+/*          BLinking End                 */
+/*-------------------------------------*/
