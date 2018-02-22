@@ -1,8 +1,6 @@
 # GIS
-GIS Web Maps
-##################
-## Instructions ##
-##################
+GIS Web Maps 
+## Instructions  
 
 Step 1:
 Clone or Download repository
