@@ -1,6 +1,6 @@
-# GIS
-GIS Web Maps 
-## Instructions  
+# Interactive GIS Map 
+
+# Instructions  
 
 Step 1:
 Clone or Download repository
@@ -10,4 +10,4 @@ Open index.html file with a web browser on a local server
 
 What do I need to know to manipulate the data?
 
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript, LeafletJS
