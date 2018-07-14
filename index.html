@@ -121,13 +121,11 @@
         			icon: iconByName('waterBody'),
         			layer: L.geoJson(YourDataVariableHere, {pointToLayer: featureToMarker, color: '#4da6ff', fillColor: '#66d9ff', weight: 1,  opacity: 1, fillOpacity: .51, })
         		},
-            */
       	    {
         			name: "Water Surface",
         			icon: iconByName('waterBody'),
         			layer: L.geoJson(jsonWater, {pointToLayer: featureToMarker, style: roadStyle}),
         		},
-            /*
             {
         			name: "Major Roads",
         			icon: iconByName('rivers'),
@@ -179,7 +177,7 @@
         layer: L.geoJson(jsonRailways, {
           pointToLayer: featureToMarker
         })
-      },
+      }
     ];
 
     var panelLayers = new L.Control.PanelLayers(baseLayers, overLayers);
