@@ -13,5 +13,4 @@ What do I need to know to manipulate the data?
 HTML, CSS, JavaScript, LeafletJS
 
 Screenshot of final product:
-
-<img src="https://i.imgur.com/iTNrLhd.png" width="100%" />
+[url=https://ibb.co/RPBVbfS][img]https://i.ibb.co/2Psfhx6/map.png[/img][/url]
